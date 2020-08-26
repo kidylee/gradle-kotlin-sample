@@ -1,0 +1,53 @@
+{
+  "generator-jhipster": {
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "clientFramework": "react",
+    "serverPort": "8080",
+    "serviceDiscoveryType": false,
+    "skipUserManagement": false,
+    "baseName": "ddexweb",
+    "buildTool": "gradle",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": ["en", "zh-cn"],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "skipClient": false,
+    "testFrameworks": [],
+    "websocket": false,
+    "applicationType": "monolith",
+    "clientPackageManager": "npm",
+    "clientTheme": "none",
+    "clientThemeVariant": "primary",
+    "dtoSuffix": "DTO",
+    "packageName": "cn.org.aiit.ddex",
+    "packageFolder": "cn/org/aiit/ddex",
+    "jhipsterVersion": "6.10.1",
+    "creationTimestamp": 1598428860011,
+    "skipServer": false,
+    "useSass": true,
+    "jwtSecretKey": "ZmQzNzYyMWJjMGRiYTczNjYwNzVkMmM4NzViYTM4OWNkY2JmNzU0YmRlZjg2OGJiZjg0NDNmZWM2ZDgzOGNmN2IyYjNlMDc1MTE4NGFmMTM5NjE4ZDFkYTIxMzg4Y2M5NThjNTA4YjEwNDMxZmFiZmQyN2JmZDg2ZGMwNjI4Zjc=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.9.0"
+      }
+    ],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.9.0"
+      }
+    ]
+  },
+  "entities": []
+}
