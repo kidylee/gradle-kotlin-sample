@@ -319,8 +319,15 @@ if (project.hasProperty("nodeInstall")) {
         version = "${node_version}"
         npmVersion = "${npm_version}"
         yarnVersion = "${yarn_version}"
-        download = false
+
+        distBaseUrl = "https://npm.taobao.org/mirrors/node"
+        download = true
     }
+}
+afterEvaluate() {
+    println 'https://registry.npm.taobao.org'
+    npmSetup.args += ['--registry=https://registry.npm.taobao.org']
+    println npmSetup.args
 }
 compileJava.dependsOn processResources
 processResources.dependsOn bootBuildInfo
