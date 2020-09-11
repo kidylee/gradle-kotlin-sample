@@ -1,6 +1,9 @@
 buildscript {
     repositories {
         mavenLocal()
+        maven {
+            url "https://maven.aliyun.com/repository/public"
+        }
         mavenCentral()
         gradlePluginPortal()
         maven { url "https://repo.spring.io/plugins-release" }
@@ -199,6 +202,9 @@ configurations {
 
 repositories {
     mavenLocal()
+    maven {
+            url "https://maven.aliyun.com/repository/public"
+        }
     mavenCentral()
     jcenter()
     //jhipster-needle-gradle-repositories - JHipster will add additional repositories
