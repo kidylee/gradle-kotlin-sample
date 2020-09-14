@@ -326,7 +326,7 @@ if (project.hasProperty("nodeInstall")) {
         npmVersion = "${npm_version}"
         yarnVersion = "${yarn_version}"
 
-        distBaseUrl = "https://npm.taobao.org/mirrors/node"
+        distBaseUrl = "https://mirrors.ustc.edu.cn/node/"
         download = true
     }
 }
