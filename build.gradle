@@ -330,10 +330,6 @@ if (project.hasProperty("nodeInstall")) {
         download = true
     }
 }
-afterEvaluate() {
-    println 'https://registry.npm.taobao.org'
-    npmSetup.args += ['--registry=https://registry.npm.taobao.org']
-    println npmSetup.args
-}
+
 compileJava.dependsOn processResources
 processResources.dependsOn bootBuildInfo
